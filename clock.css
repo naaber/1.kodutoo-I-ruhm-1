@@ -4,11 +4,20 @@ body {
   color: #989898;
 }
 
+
 p {
   position: fixed;
   text-align: center;
   bottom: 0px;
   width: 100%;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .inner_clock {
